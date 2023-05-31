@@ -1,13 +1,26 @@
  /* Main title */
- h1 {     position: absolute;
-  right: 76%;
-  top: 9.5%;
+
+ @font-face {
+  font-family: DarkSouls;
+  src: url(src\styles\OptimusPrincepsSemiBold.ttf);
+}
+
+ img.background {
+  height: 1200px;
+  width: 1400px;
+  left: -8%;
+  position: fixed;
+}
+ h1 {    position: absolute;
+  right: 80%;
+  left: 9.5%;
+  top: 2.5%;
   width: fit-content;
-  font-size: large;
+  font-size: x-large;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "DarkSouls";
   background-color: black;
   color: red;
   border-radius: 52%;
@@ -23,7 +36,7 @@ h2.subs {display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction:column;
-  font-family: 'Trebuchet MS';
+  font-family: 'DarkSouls';
   background-color: black;
   color: red;
   border-radius: 52%;
@@ -39,7 +52,7 @@ h2.stats {display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction:column;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:"DarkSouls";
   background-color: black;
   color: red;
   border-radius: 52%;
@@ -49,8 +62,8 @@ h2.stats {display: inline-flex;
 li:hover, img.head:hover, img.shoulder:hover, img.torso#abs:hover, img.arm:hover, img.hand:hover, img.leg:hover, img.foot:hover {
   background-color: aqua;
   cursor: pointer;
-  color: purple;
-  z-index: 14;
+  color: rgb(3, 210, 3);
+  z-index: 20;
 }
 
 img.fighter {
@@ -259,27 +272,33 @@ ul.subList {
   display: inline-flex;
   position: absolute;
   right: 47%;
-  top: 43.5%;
+  top: 32.5%;
   width: 137px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "DarkSouls";
 }
 ul {
-  border: 5px solid black;
+  border: 3px solid black;
   padding-right: 0px;
   padding-top: 4px;
   padding-bottom: 4px;
   width: 50px;
   border-radius: 5px;
+  font-family: "DarkSouls";
+  background-color: grey;
+  border-style: inset;
 }
 li {
-  border: 1px solid black;
+  border: 3px solid black;
   padding-top: 4px;
   padding-bottom: 4px;
-
+  font-family: "DarkSouls";
   border-top: 5px;
   border-left: 5px;
+  border-style: ridge;
+  background-color: rgb(124, 124, 211);
 }
 
 
@@ -298,6 +317,7 @@ div.stats {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "DarkSouls";
 }
 
 div.fighter {
@@ -310,4 +330,5 @@ div.fighter {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "DarkSouls";
 }

@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 limb.style.backgroundColor = "";
             } else {
                 limb.style.backgroundColor = "red";
-                limb.style.zIndex = "20"
+                limb.style.zIndex = "15"
             };
     };
 
@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
             li.className = "submissions"
             li.id = sub.name
             li.textContent = sub.name;
+            li.style.fontFamily = "DarkSouls";
             li.addEventListener("click", (e) => {
 
                 subList.childNodes.forEach(child => {
@@ -76,6 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 li.style.backgroundColor = "red";
                 li.style.color = "white"
                 li.style.fontStyle = "italic"
+                
                 
                 displayFighter(sub.fighter);
             });
