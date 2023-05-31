@@ -4,12 +4,12 @@ const Submission = require("./submission");
 
 // Fighter Seeds
 // ---------------------
-export const MishaCirkunov = new Fighter ({name: "Misha Cirkunov", subWins: "1 Win via Peruvian Necktie,", img: "../src/assets/Misha_cirkunov_peruvian.png"});
-export const CouldBeYou = new Fighter({name: "Nobody has finished a UFC fight with this submission yet...  You could be the first! Check out this awesome tutorial video and make it a reality!", subWins: "", img: "../src/assets/Mystery_Fighter.png"});
-export const DemianMaiaRNC = new Fighter({name: "Demian Maia", subWins: "8 Wins via Rear-Naked Choke", img: "../src/assets/Demian_Maia_RNC.png"}); 
-export const MakwanAmirkhani = new Fighter({name: "Makwan Amirkhani", subWins: "3 Wins via Anaconda Choke", img: "../src/assets/Makwan_Amirkhani.png"});
-export const VincenteLuque = new Fighter({name: "Vincete Luque", subWins: "4 Wins via D'arce Choke", img: "../src/assets/Vincente_Luque_anaconda.png" });
-export const NateDiazGuillotine = new Fighter({name: "Nate Diaz", subWins: "5 Wins via Guillotine", img: "../src/assets/Nate_Diaz_Guillotine.png"});
+export const MishaCirkunov = new Fighter ({name: "Misha Cirkunov", subWins: "1 Win via Peruvian Necktie,", img: "./src/assets/Misha_cirkunov_peruvian.png"});
+export const CouldBeYou = new Fighter({name: "Nobody has finished a UFC fight with this submission yet...  You could be the first! Check out this awesome tutorial video and make it a reality!", subWins: "", img: "./src/assets/Mystery_Fighter.png"});
+export const DemianMaiaRNC = new Fighter({name: "Demian Maia", subWins: "8 Wins via Rear-Naked Choke", img: "./src/assets/Demian_Maia_RNC.png"}); 
+export const MakwanAmirkhani = new Fighter({name: "Makwan Amirkhani", subWins: "3 Wins via Anaconda Choke", img: "./src/assets/Makwan_Amirkhani.png"});
+export const VincenteLuque = new Fighter({name: "Vincete Luque", subWins: "4 Wins via D'arce Choke", img: "./src/assets/Vincente_Luque_anaconda.png" });
+export const NateDiazGuillotine = new Fighter({name: "Nate Diaz", subWins: "5 Wins via Guillotine", img: "./src/assets/Nate_Diaz_Guillotine.png"});
 export const AlexeyOleynik = new Fighter ({name: "Alexey Oleynik", subWins: "2 Wins via Ezekiel", img: "./src/assets/Alexey_Oleynik_Ezekiel.png" });
 export const NickDiaz = new Fighter ({name: "Nick Diaz", subWins: "1 Win via Gogoplata (Pride FC)", img: "./src/assets/Nick_Diaz_Gogoplata.png"});
 export const UriahFaber = new Fighter({name: "Uriah Faber", subWins: "1 Win via Bulldog Choke", img: "./src/assets/Uriah_Faber_Bulldog.png"});
