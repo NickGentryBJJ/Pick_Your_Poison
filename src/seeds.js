@@ -4,7 +4,7 @@ const Submission = require("./submission");
 
 // Fighter Seeds
 // ---------------------
-export const MishaCirkunov = new Fighter ({name: "Misha Cirkunov", subWins: "1 Win via Peruvian Necktie,", img: "./src/assets/Misha_cirkunov_peruvian.png"});
+export const MishaCirkunov = new Fighter ({name: "Misha Cirkunov", subWins: "1 Win via Peruvian Necktie", img: "./src/assets/Misha_cirkunov_peruvian.png"});
 export const CouldBeYou = new Fighter({name: "Nobody has finished a UFC fight with this submission yet...  You could be the first! Check out this awesome tutorial video and make it a reality!", subWins: "", img: "./src/assets/Mystery_Fighter.png"});
 export const DemianMaiaRNC = new Fighter({name: "Demian Maia", subWins: "8 Wins via Rear-Naked Choke", img: "./src/assets/Demian_Maia_RNC.png"}); 
 export const MakwanAmirkhani = new Fighter({name: "Makwan Amirkhani", subWins: "3 Wins via Anaconda Choke", img: "./src/assets/Makwan_Amirkhani.png"});
@@ -34,7 +34,7 @@ export const FrankMirToeHold = new Fighter({name: "Frank Mir", subWins: "1 Win v
 export const RearNakedChoke = new Submission({name: "Rear Naked", bodyPart: "Neck", subRate: "45.68%", fighter: DemianMaiaRNC, videoLink: "https://www.youtube.com/watch?v=eLyaMHmbtno"});
 export const Anaconda = new Submission({name: "Anaconda", bodyPart: "Neck", subRate: "2.46%", fighter: MakwanAmirkhani, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
 export const Darce = new Submission({name: "D'arce", bodyPart: "Neck", subRate: "3.50%", fighter: VincenteLuque, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
-export const Guillotine = new Submission({name: "Guillotine", bodyPart: "Neck", subRate: "23.75", fighter: NateDiazGuillotine, videoLink: "https://www.youtube.com/watch?v=uTg2V70NjyE"});
+export const Guillotine = new Submission({name: "Guillotine", bodyPart: "Neck", subRate: "23.75", fighter: NateDiazGuillotine, videoLink: "https://www.youtube.com/watch?v=dFOtP7-8vN0"});
 export const PeruvianNecktie = new Submission({name: "Peruvian Necktie", bodyPart: "Neck", subRate: "0.38%", fighter: MishaCirkunov, videoLink: "https://www.youtube.com/watch?v=kxCCrUACAwM"});
 export const Ezekiel = new Submission({name: "Ezekiel", bodyPart: "Neck", subRate: "0.38%", fighter: AlexeyOleynik, videoLink: "https://www.youtube.com/watch?v=dOsFsy-RDZY"});
 export const Gogoplata = new Submission({name: "Gogoplata", bodyPart: "Neck", subRate: "0%", fighter: NickDiaz, videoLink: "https://www.youtube.com/watch?v=5xsjY2zRsZA"});

@@ -39,13 +39,18 @@ document.addEventListener("DOMContentLoaded", () => {
             };
     };
 
-    function displayFighter(fighter) {
+    function displayFighter(fighter, submission) {
         const stats = document.querySelector(".fighter");
         stats.innerHTML = "";
         const name = document.createElement("h3");
         const subWins = document.createElement("h4");
         const img = document.createElement("img");
+        const link = document.createElement("a");
+        link.href = submission.videoLink;
+        link.textContent = "Super Awesome Video";
         subWins.textContent = fighter.subWins;
+        subWins.className = "fighter"
+        name.className = "fighter"
         name.textContent = fighter.name;
         img.src = fighter.img;
         console.log(fighter.img);
@@ -53,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             stats.append(img);
             stats.append(name);
             stats.append(subWins);
+            stats.append(link);
     
     }
     
@@ -79,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 li.style.fontStyle = "italic"
                 
                 
-                displayFighter(sub.fighter);
+                displayFighter(sub.fighter, sub);
             });
             subList.append(li);
             

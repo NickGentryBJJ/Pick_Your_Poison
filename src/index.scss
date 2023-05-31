@@ -4,11 +4,16 @@
   font-family: DarkSouls;
   src: url(src\styles\OptimusPrincepsSemiBold.ttf);
 }
-
+ a {
+  font-size: larger;
+  color: red;
+  font-family: "DarkSouls";
+  top: 540%;
+  position: absolute;
+}
  img.background {
-  height: 1200px;
-  width: 1400px;
-  left: -8%;
+  height: 100%;
+  width: 100%;
   position: fixed;
 }
  h1 {    position: absolute;
@@ -32,7 +37,7 @@ h2.subs {display: inline-flex;
   right: 46.5%;
   top: 12.5%;
   width: fit-content;
-  font-size: large;
+  font-size: larger;
   justify-content: center;
   align-items: center;
   flex-direction:column;
@@ -45,10 +50,10 @@ h2.subs {display: inline-flex;
 
 h2.stats {display: inline-flex;  
   position: absolute;
-  right: 17%;
+  right: 13%;
   top: 12.5%;
   width: fit-content;
-  font-size: large;
+  font-size: larger;
   justify-content: center;
   align-items: center;
   flex-direction:column;
@@ -59,6 +64,25 @@ h2.stats {display: inline-flex;
   padding: 3%;
 }
 
+h3, h4{
+  font-size: large;
+  border: 7px;
+  border-style: ridge;
+  border-color: royalblue;
+  background-color: rgb(147, 147, 244);
+  color: black;
+  
+}
+
+// h3.fighter {
+//   top: 0%;
+//   position: absolute;
+// }
+// h4.fighter {
+//   position: absolute;
+//   top: 0%;
+// }
+
 li:hover, img.head:hover, img.shoulder:hover, img.torso#abs:hover, img.arm:hover, img.hand:hover, img.leg:hover, img.foot:hover {
   background-color: aqua;
   cursor: pointer;
@@ -68,14 +92,14 @@ li:hover, img.head:hover, img.shoulder:hover, img.torso#abs:hover, img.arm:hover
 
 img.fighter {
   display: inline-flex;
-  position: absolute;
-  left: -33%;
-  top: 174.5%;
-  height: 296px;
-  width: 342px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    position: absolute;
+    left: -33%;
+    top: 134.5%;
+    height: 370%;
+    width: 167%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 img.head {
   display: inline-flex;
@@ -84,35 +108,36 @@ img.head {
     top: 25.5%;
     border-radius: 4px;
     padding: 1px;
-    width: 121px;
+    width: 10%;
     margin: 0px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+
 img.shoulder#leftShoulder {
   display: inline-flex;
-    position: absolute;
-    left: 92px;
-    top: 41.2%;
-    border-radius: 4px;
-    padding: 1px;
-    width: 122px;
-    margin: 0px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: absolute;
+  left: 7.29%;
+  top: 42%;
+  border-radius: 4px;
+  padding: 1px;
+  width: 10%;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 img.shoulder#rightShoulder {
   display: inline-flex;
   position: absolute;
-  left: 180px;
-  top: 41.3%;
+  left: 14.5%;
+  top: 42%;
   border-radius: 4px;
   padding: 1px;
-  width: 122px;
+  width: 10%;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -123,11 +148,11 @@ img.shoulder#rightShoulder {
 img.arm#leftArm {
   display: inline-flex;
     position: absolute;
-    left: 46px;
-    top: 57.3%;
+    left: 3.59%;
+    top: 58.7%;
     border-radius: 4px;
     padding: 1px;
-    width: 123px;
+    width: 10%;
     margin: 0px;
     justify-content: center;
     align-items: center;
@@ -136,11 +161,11 @@ img.arm#leftArm {
 img.arm#rightArm {
   display: inline-flex;
   position: absolute;
-  left: 228px;
-  top: 56.3%;
+  left: 18.4%;
+  top: 57.6%;
   border-radius: 4px;
   padding: 1px;
-  width: 123px;
+  width: 10%;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -149,11 +174,11 @@ img.arm#rightArm {
 img.hand#leftHand {
   display: inline-flex;
   position: absolute;
-  left: 2px;
-  top: 70.5%;
+  left: 0.19%;
+  top: 72.4%;
   border-radius: 4px;
   padding: 1px;
-  width: 126px;
+  width: 10%;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -162,11 +187,11 @@ img.hand#leftHand {
 img.hand#rightHand {
   display: inline-flex;
   position: absolute;
-  left: 269px;
-  top: 70.4%;
+  left: 21.8%;
+  top: 72.1%;
   border-radius: 4px;
   padding: 1px;
-  width: 126px;
+  width: 10%;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -175,11 +200,11 @@ img.hand#rightHand {
 img.torso#abs {
   display: inline-flex;
   position: absolute;
-  left: 112px;
-  top: 53%;
+  left: 9.5%;
+  top: 55%;
   border-radius: 4px;
   padding: 1px;
-  width: 156px;
+  width: 12%;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -188,11 +213,11 @@ img.torso#abs {
 img.torso#upperThighRight {
   display: inline-flex;
     position: absolute;
-    left: 166px;
-    top: 69%;
+    left: 13.5%;
+    top: 70.6%;
     border-radius: 4px;
     padding: 1px;
-    width: 126px;
+    width: 10%;
     margin: 0px;
     justify-content: center;
     align-items: center;
@@ -201,11 +226,11 @@ img.torso#upperThighRight {
 img.torso#upperThighLeft {
   display: inline-flex;
     position: absolute;
-    left: 101.5px;
-    top: 69%;
+    left: 8.5%;
+    top: 70.6%;
     border-radius: 4px;
     padding: 1px;
-    width: 126px;
+    width: 10%;
     margin: 0px;
     justify-content: center;
     align-items: center;
@@ -215,11 +240,11 @@ img.torso#upperThighLeft {
 img.leg#leftLeg {
   display: inline-flex;
     position: absolute;
-    left: 104px;
-    top: 85.6%;
+    left: 8.87%;
+    top: 87.3%;
     border-radius: 4px;
     padding: 1px;
-    width: 103px;
+    width: 8%;
     margin: 0px;
     justify-content: center;
     align-items: center;
@@ -229,11 +254,11 @@ img.leg#leftLeg {
 img.leg#rightLeg {
   display: inline-flex;
     position: absolute;
-    left: 175px;
-    top: 84.4%;
+    left: 14.1%;
+    top: 85.7%;
     border-radius: 4px;
     padding: 1px;
-    width: 108px;
+    width: 8.7%;
     margin: 0px;
     justify-content: center;
     align-items: center;
@@ -243,11 +268,11 @@ img.leg#rightLeg {
 img.foot#leftFoot {
   display: inline-flex;
   position: absolute;
-  left: 91px;
+  left: 7.76%;
   top: 117.5%;
   border-radius: 4px;
   padding: 1px;
-  width: 126px;
+  width: 10%;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -257,11 +282,11 @@ img.foot#leftFoot {
 img.foot#rightFoot {
   display: inline-flex;
     position: absolute;
-    left: 179px;
-    top: 118.5%;
+    left: 14.5%;
+    top: 120.5%;
     border-radius: 4px;
     padding: 1px;
-    width: 126px;
+    width: 10%;
     margin: 0px;
     justify-content: center;
     align-items: center;
@@ -271,7 +296,7 @@ img.foot#rightFoot {
 ul.subList {
   display: inline-flex;
   position: absolute;
-  right: 47%;
+  right: 47.8%;
   top: 32.5%;
   width: 137px;
   justify-content: center;
@@ -331,4 +356,5 @@ div.fighter {
   align-items: center;
   flex-direction: column;
   font-family: "DarkSouls";
+  color: rgb(78, 24, 126);
 }
