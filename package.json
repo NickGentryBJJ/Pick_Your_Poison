@@ -1,0 +1,30 @@
+{
+  "name": "java_script_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "Nick Gentry",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.30.2",
+    "css-loader": "^6.7.4",
+    "mini-css-extract-plugin": "^2.7.6",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "webpack": "^5.84.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
