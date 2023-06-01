@@ -16,7 +16,7 @@ This webpage will be used to find different submissions.  For each submission yo
 - Will be very user friendly and have information build from left to right. 
 
 ## Frame:
- ![Wire Frame screenshot](https://github.com/NickGentryBJJ/Pick-Your-Poison-Project/blob/main/assets/wireFrame.png.png)  
+ ![Wire Frame screenshot](wireFrame.png.png)  
 
 
 ### API 
