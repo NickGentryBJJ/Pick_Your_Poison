@@ -31,18 +31,18 @@ export const BrendonAllen = new Fighter({name: "Brendon Allen", subWins: "1 Win 
 export const FrankMirToeHold = new Fighter({name: "Frank Mir", subWins: "1 Win via Toe-Hold", img: "./src/assets/Frank_Mir_ToeHold.png"});
 // Submission Seeds
 // ------------------
-export const RearNakedChoke = new Submission({name: "Rear Naked", bodyPart: "Neck", subRate: "45.68", fighter: DemianMaiaRNC, videoLink: "https://www.youtube.com/watch?v=eLyaMHmbtno"});
-export const Anaconda = new Submission({name: "Anaconda", bodyPart: "Neck", subRate: "2.46", fighter: MakwanAmirkhani, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
-export const Darce = new Submission({name: "D'arce", bodyPart: "Neck", subRate: "3.50", fighter: VincenteLuque, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
+export const RearNakedChoke = new Submission({name: "Rear-Naked Choke", bodyPart: "Neck", subRate: "45.68", fighter: DemianMaiaRNC, videoLink: "https://www.youtube.com/watch?v=eLyaMHmbtno"});
+export const Anaconda = new Submission({name: "Anaconda Choke", bodyPart: "Neck", subRate: "2.46", fighter: MakwanAmirkhani, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
+export const Darce = new Submission({name: "D'arce Choke", bodyPart: "Neck", subRate: "3.50", fighter: VincenteLuque, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
 export const Guillotine = new Submission({name: "Guillotine", bodyPart: "Neck", subRate: "23.75", fighter: NateDiazGuillotine, videoLink: "https://www.youtube.com/watch?v=dFOtP7-8vN0"});
 export const PeruvianNecktie = new Submission({name: "Peruvian Necktie", bodyPart: "Neck", subRate: "0.38", fighter: MishaCirkunov, videoLink: "https://www.youtube.com/watch?v=kxCCrUACAwM"});
 export const Ezekiel = new Submission({name: "Ezekiel", bodyPart: "Neck", subRate: "0.38", fighter: AlexeyOleynik, videoLink: "https://www.youtube.com/watch?v=dOsFsy-RDZY"});
 export const Gogoplata = new Submission({name: "Gogoplata", bodyPart: "Neck", subRate: "0", fighter: NickDiaz, videoLink: "https://www.youtube.com/watch?v=5xsjY2zRsZA"});
-export const Bulldog = new Submission({name: "Bulldog", bodyPart: "Neck", subRate: "0.76", fighter: UriahFaber, videoLink: "https://www.youtube.com/watch?v=fBHlLSyM1Dk"});
+export const Bulldog = new Submission({name: "Bulldog Choke", bodyPart: "Neck", subRate: "0.76", fighter: UriahFaber, videoLink: "https://www.youtube.com/watch?v=fBHlLSyM1Dk"});
 export const ArmTriangle = new Submission({name: "Arm Triangle", bodyPart: "Neck", subRate: "8.70", fighter: IslamMakhachev, videoLink: "https://www.youtube.com/shorts/flTtV6o71aw"});
-export const Triangle = new Submission({name: "Triangle", bodyPart: "Neck", subRate: "7.95", fighter: NateDiazTriangle, videoLink: "https://www.youtube.com/watch?v=L_NOue0uDt8"});
+export const Triangle = new Submission({name: "Triangle Choke", bodyPart: "Neck", subRate: "7.95", fighter: NateDiazTriangle, videoLink: "https://www.youtube.com/watch?v=L_NOue0uDt8"});
 export const NorthSouth = new Submission({name: "North-South", bodyPart: "Neck", subRate: "0.47", fighter: JeffMonson, videoLink: "https://www.youtube.com/watch?v=iI-doryrV0c"});
-export const BaseballBat = new Submission({name: "Baseball Bat", bodyPart: "Neck", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/shorts/221sEEibeZA"});
+export const BaseballBat = new Submission({name: "Baseball Bat Choke", bodyPart: "Neck", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/shorts/221sEEibeZA"});
 export const LegScissor = new Submission({name: "Leg Scissor", bodyPart: "Neck", subRate: "0", fighter: PhoenixJones, videoLink: "https://m.facebook.com/pflmma/videos/rare-scissor-choke/1084027982403593/"});
 export const NeckCrank = new Submission({name: "Neck Crank", bodyPart: "Neck", subRate: "0.38", fighter: MarkColeman, videoLink: "https://www.youtube.com/watch?v=ImV-cqgYJX4&t=80s"});
 export const ExecutionerNeck = new Submission({name: "Executioner", bodyPart: "Neck", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.tiktok.com/@thewayofbjjstudio/video/7220594393017879814"});
