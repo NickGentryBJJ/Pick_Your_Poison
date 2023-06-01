@@ -36,7 +36,7 @@ export const Anaconda = new Submission({name: "Anaconda Choke", bodyPart: "Neck"
 export const Darce = new Submission({name: "D'arce Choke", bodyPart: "Neck", subRate: "3.50", fighter: VincenteLuque, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
 export const Guillotine = new Submission({name: "Guillotine", bodyPart: "Neck", subRate: "23.75", fighter: NateDiazGuillotine, videoLink: "https://www.youtube.com/watch?v=dFOtP7-8vN0"});
 export const PeruvianNecktie = new Submission({name: "Peruvian Necktie", bodyPart: "Neck", subRate: "0.38", fighter: MishaCirkunov, videoLink: "https://www.youtube.com/watch?v=kxCCrUACAwM"});
-export const Ezekiel = new Submission({name: "Ezekiel", bodyPart: "Neck", subRate: "0.38", fighter: AlexeyOleynik, videoLink: "https://www.youtube.com/watch?v=dOsFsy-RDZY"});
+export const Ezekiel = new Submission({name: "Ezekiel", bodyPart: "Neck", subRate: "0.38", fighter: AlexeyOleynik, videoLink: "https://www.youtube.com/watch?v=1Y1G9USVx5s"});
 export const Gogoplata = new Submission({name: "Gogoplata", bodyPart: "Neck", subRate: "0", fighter: NickDiaz, videoLink: "https://www.youtube.com/watch?v=5xsjY2zRsZA"});
 export const Bulldog = new Submission({name: "Bulldog Choke", bodyPart: "Neck", subRate: "0.76", fighter: UriahFaber, videoLink: "https://www.youtube.com/watch?v=fBHlLSyM1Dk"});
 export const ArmTriangle = new Submission({name: "Arm Triangle", bodyPart: "Neck", subRate: "8.70", fighter: IslamMakhachev, videoLink: "https://www.youtube.com/shorts/flTtV6o71aw"});

@@ -20,48 +20,65 @@
   right: 80%;
   left: 9.5%;
   top: 2.5%;
-  width: fit-content;
-  font-size: x-large;
+  width: 10%;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "DarkSouls";
-  background-color: black;
   color: red;
-  border-radius: 52%;
-  padding: 3%;
+  padding: 1%;
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-style: ridge;
+  background-color: black;
+  border-color: navy;
 }
 /* This is for the Submissions title for what will be a box with submissions. */
 h2.subs {display: inline-flex;  
   position: absolute;
-  right: 46.5%;
+  right: 45.7%;
   top: 12.5%;
-  width: fit-content;
-  font-size: larger;
+  width: 10%;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
   flex-direction:column;
   font-family: 'DarkSouls';
-  background-color: black;
   color: red;
-  border-radius: 52%;
-  padding: 3%;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-style: ridge;
+  background-color: black;
+  border-color: navy;
 }
 
 h2.stats {display: inline-flex;  
   position: absolute;
-  right: 13%;
-  top: 12.5%;
-  width: fit-content;
-  font-size: larger;
+  right: 16.4%;
+  top: 2.5%;
+  width: 10%;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
   flex-direction:column;
   font-family:"DarkSouls";
-  background-color: black;
   color: red;
-  border-radius: 52%;
-  padding: 3%;
+  padding: 1%;
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-style: ridge;
+  background-color: black;
+  border-color: navy;
 }
 
 h3{
@@ -316,7 +333,7 @@ ul.subList {
   position: absolute;
   right: 47.8%;
   top: 32.5%;
-  width: 137px;
+  width: 150px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
