@@ -18,7 +18,7 @@
 }
  h1 {    position: absolute;
   right: 80%;
-  left: 9.5%;
+  left: 9.2%;
   top: 2.5%;
   width: 10%;
   font-size: 30px;
@@ -34,13 +34,13 @@
   border-bottom: 10px;
   border-style: ridge;
   background-color: black;
-  border-color: navy;
+  border-color: red;
 }
 /* This is for the Submissions title for what will be a box with submissions. */
 h2.subs {display: inline-flex;  
   position: absolute;
-  right: 45.7%;
-  top: 12.5%;
+  right: 46%;
+  top: 8%;
   width: 10%;
   font-size: 30px;
   justify-content: center;
@@ -57,14 +57,14 @@ h2.subs {display: inline-flex;
   border-bottom: 10px;
   border-style: ridge;
   background-color: black;
-  border-color: navy;
+  border-color: red;
 }
 
 h2.stats {display: inline-flex;  
   position: absolute;
-  right: 16.4%;
+  right: 13%;
   top: 2.5%;
-  width: 10%;
+  width: 15%;
   font-size: 30px;
   justify-content: center;
   align-items: center;
@@ -72,13 +72,15 @@ h2.stats {display: inline-flex;
   font-family:"DarkSouls";
   color: red;
   padding: 1%;
+  padding-left: 3%;
+  padding-right: 1%;
   border-top: 10px;
   border-left: 10px;
   border-right: 10px;
   border-bottom: 10px;
   border-style: ridge;
   background-color: black;
-  border-color: navy;
+  border-color: red;
 }
 
 h3{
@@ -347,7 +349,7 @@ ul {
   width: 50px;
   border-radius: 5px;
   font-family: "DarkSouls";
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.34);
   border-style: inset;
 }
 li {
