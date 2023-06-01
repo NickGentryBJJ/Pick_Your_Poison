@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     child.style.fontStyle = ""
                 });
                 li.style.backgroundColor = "red";
-                li.style.color = "white"
+                li.style.color = "black"
                 li.style.fontStyle = "italic"
                 
                 
