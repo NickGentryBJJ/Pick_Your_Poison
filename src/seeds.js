@@ -5,7 +5,7 @@ const Submission = require("./submission");
 // Fighter Seeds
 // ---------------------
 export const MishaCirkunov = new Fighter ({name: "Misha Cirkunov", subWins: "1 Win via Peruvian Necktie", img: "./src/assets/Misha_cirkunov_peruvian.png"});
-export const CouldBeYou = new Fighter({name: "Nobody has finished a UFC fight with this submission yet...  You could be the first! Check out this awesome tutorial video and make it a reality!", subWins: "", img: "./src/assets/Mystery_Fighter.png"});
+export const CouldBeYou = new Fighter({name: "No finishes in UFC with this submission... You could be the first!", subWins: "Check out the video below to make it a reality!", img: "./src/assets/Mystery_Fighter.png"});
 export const DemianMaiaRNC = new Fighter({name: "Demian Maia", subWins: "8 Wins via Rear-Naked Choke", img: "./src/assets/Demian_Maia_RNC.png"}); 
 export const MakwanAmirkhani = new Fighter({name: "Makwan Amirkhani", subWins: "3 Wins via Anaconda Choke", img: "./src/assets/Makwan_Amirkhani.png"});
 export const VincenteLuque = new Fighter({name: "Vincete Luque", subWins: "4 Wins via D'arce Choke", img: "./src/assets/Vincente_Luque_anaconda.png" });
@@ -31,39 +31,39 @@ export const BrendonAllen = new Fighter({name: "Brendon Allen", subWins: "1 Win 
 export const FrankMirToeHold = new Fighter({name: "Frank Mir", subWins: "1 Win via Toe-Hold", img: "./src/assets/Frank_Mir_ToeHold.png"});
 // Submission Seeds
 // ------------------
-export const RearNakedChoke = new Submission({name: "Rear Naked", bodyPart: "Neck", subRate: "45.68%", fighter: DemianMaiaRNC, videoLink: "https://www.youtube.com/watch?v=eLyaMHmbtno"});
-export const Anaconda = new Submission({name: "Anaconda", bodyPart: "Neck", subRate: "2.46%", fighter: MakwanAmirkhani, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
-export const Darce = new Submission({name: "D'arce", bodyPart: "Neck", subRate: "3.50%", fighter: VincenteLuque, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
+export const RearNakedChoke = new Submission({name: "Rear Naked", bodyPart: "Neck", subRate: "45.68", fighter: DemianMaiaRNC, videoLink: "https://www.youtube.com/watch?v=eLyaMHmbtno"});
+export const Anaconda = new Submission({name: "Anaconda", bodyPart: "Neck", subRate: "2.46", fighter: MakwanAmirkhani, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
+export const Darce = new Submission({name: "D'arce", bodyPart: "Neck", subRate: "3.50", fighter: VincenteLuque, videoLink: "https://www.youtube.com/watch?v=kc8j-YrtRVM"});
 export const Guillotine = new Submission({name: "Guillotine", bodyPart: "Neck", subRate: "23.75", fighter: NateDiazGuillotine, videoLink: "https://www.youtube.com/watch?v=dFOtP7-8vN0"});
-export const PeruvianNecktie = new Submission({name: "Peruvian Necktie", bodyPart: "Neck", subRate: "0.38%", fighter: MishaCirkunov, videoLink: "https://www.youtube.com/watch?v=kxCCrUACAwM"});
-export const Ezekiel = new Submission({name: "Ezekiel", bodyPart: "Neck", subRate: "0.38%", fighter: AlexeyOleynik, videoLink: "https://www.youtube.com/watch?v=dOsFsy-RDZY"});
-export const Gogoplata = new Submission({name: "Gogoplata", bodyPart: "Neck", subRate: "0%", fighter: NickDiaz, videoLink: "https://www.youtube.com/watch?v=5xsjY2zRsZA"});
+export const PeruvianNecktie = new Submission({name: "Peruvian Necktie", bodyPart: "Neck", subRate: "0.38", fighter: MishaCirkunov, videoLink: "https://www.youtube.com/watch?v=kxCCrUACAwM"});
+export const Ezekiel = new Submission({name: "Ezekiel", bodyPart: "Neck", subRate: "0.38", fighter: AlexeyOleynik, videoLink: "https://www.youtube.com/watch?v=dOsFsy-RDZY"});
+export const Gogoplata = new Submission({name: "Gogoplata", bodyPart: "Neck", subRate: "0", fighter: NickDiaz, videoLink: "https://www.youtube.com/watch?v=5xsjY2zRsZA"});
 export const Bulldog = new Submission({name: "Bulldog", bodyPart: "Neck", subRate: "0.76", fighter: UriahFaber, videoLink: "https://www.youtube.com/watch?v=fBHlLSyM1Dk"});
-export const ArmTriangle = new Submission({name: "Arm Triangle", bodyPart: "Neck", subRate: "8.70%", fighter: IslamMakhachev, videoLink: "https://www.youtube.com/shorts/flTtV6o71aw"});
-export const Triangle = new Submission({name: "Triangle", bodyPart: "Neck", subRate: "7.95%", fighter: NateDiazTriangle, videoLink: "https://www.youtube.com/watch?v=L_NOue0uDt8"});
+export const ArmTriangle = new Submission({name: "Arm Triangle", bodyPart: "Neck", subRate: "8.70", fighter: IslamMakhachev, videoLink: "https://www.youtube.com/shorts/flTtV6o71aw"});
+export const Triangle = new Submission({name: "Triangle", bodyPart: "Neck", subRate: "7.95", fighter: NateDiazTriangle, videoLink: "https://www.youtube.com/watch?v=L_NOue0uDt8"});
 export const NorthSouth = new Submission({name: "North-South", bodyPart: "Neck", subRate: "0.47", fighter: JeffMonson, videoLink: "https://www.youtube.com/watch?v=iI-doryrV0c"});
-export const BaseballBat = new Submission({name: "Baseball Bat", bodyPart: "Neck", subRate: "0%", fighter: CouldBeYou, videoLink: "https://www.youtube.com/shorts/221sEEibeZA"});
-export const LegScissor = new Submission({name: "Leg Scissor", bodyPart: "Neck", subRate: "0%", fighter: PhoenixJones, videoLink: "https://m.facebook.com/pflmma/videos/rare-scissor-choke/1084027982403593/"});
-export const NeckCrank = new Submission({name: "Neck Crank", bodyPart: "Neck", subrate: "0.38%", fighter: MarkColeman, videoLink: "https://www.youtube.com/watch?v=ImV-cqgYJX4&t=80s"});
-export const ExecutionerNeck = new Submission({name: "Executioner", bodyPart: "Neck", subrate: "0%", fighter: CouldBeYou, videoLink: "https://www.tiktok.com/@thewayofbjjstudio/video/7220594393017879814"});
-export const Kimura = new Submission({name: "Kimura", bodyPart: "Shoulder", subRate: "3%", fighter: FrankMirKimura, videoLink: "https://www.youtube.com/watch?v=f6hTbHESk48"});
-export const Americana = new Submission({name: "Americana", bodyPart: "Shoulder", subRate: "0.4%", fighter: JonJones, videoLink: "https://www.youtube.com/watch?v=FRrK4EEv3fU"});
-export const Omoplata = new Submission({name: "Omoplata", bodyPart: "Shoulder", subrate: "0.1%", fighter: BenSaunders, videoLink: "https://www.youtube.com/watch?v=PUj9TUK32ww"});
-export const Baratoplata = new Submission({name: "Baratoplata", bodyPart: "Shoulder", subRate: "0%", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=nOqhD-TNDk8"});
-export const Armbar = new Submission({name: "Armbar", bodyPart: "Arm", subrate: "11.5%", fighter: DemetriousJohnson, videoLink: "https://www.youtube.com/watch?v=o1OZHNf8hoo"});
-export const BicepSlicer = new Submission({name: "Bicep-Slicer", bodyPart: "Arm", subrate: "0%", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=SLRcvOK-N8E"});
-export const WristLock = new Submission({name: "Wrist-Lock", bodyPart: "Wrist", subRate: "0%", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=jyJX58s0I4c"});
+export const BaseballBat = new Submission({name: "Baseball Bat", bodyPart: "Neck", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/shorts/221sEEibeZA"});
+export const LegScissor = new Submission({name: "Leg Scissor", bodyPart: "Neck", subRate: "0", fighter: PhoenixJones, videoLink: "https://m.facebook.com/pflmma/videos/rare-scissor-choke/1084027982403593/"});
+export const NeckCrank = new Submission({name: "Neck Crank", bodyPart: "Neck", subrate: "0.38", fighter: MarkColeman, videoLink: "https://www.youtube.com/watch?v=ImV-cqgYJX4&t=80s"});
+export const ExecutionerNeck = new Submission({name: "Executioner", bodyPart: "Neck", subrate: "0", fighter: CouldBeYou, videoLink: "https://www.tiktok.com/@thewayofbjjstudio/video/7220594393017879814"});
+export const Kimura = new Submission({name: "Kimura", bodyPart: "Shoulder", subRate: "3", fighter: FrankMirKimura, videoLink: "https://www.youtube.com/watch?v=f6hTbHESk48"});
+export const Americana = new Submission({name: "Americana", bodyPart: "Shoulder", subRate: "0.4", fighter: JonJones, videoLink: "https://www.youtube.com/watch?v=FRrK4EEv3fU"});
+export const Omoplata = new Submission({name: "Omoplata", bodyPart: "Shoulder", subrate: "0.1", fighter: BenSaunders, videoLink: "https://www.youtube.com/watch?v=PUj9TUK32ww"});
+export const Baratoplata = new Submission({name: "Baratoplata", bodyPart: "Shoulder", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=nOqhD-TNDk8"});
+export const Armbar = new Submission({name: "Armbar", bodyPart: "Arm", subrate: "11.5", fighter: DemetriousJohnson, videoLink: "https://www.youtube.com/watch?v=o1OZHNf8hoo"});
+export const BicepSlicer = new Submission({name: "Bicep-Slicer", bodyPart: "Arm", subrate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=SLRcvOK-N8E"});
+export const WristLock = new Submission({name: "Wrist-Lock", bodyPart: "Wrist", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=jyJX58s0I4c"});
 export const Twister = new Submission({name: "Twister", bodyPart: "Spine", subRate: "0.1", fighter: KoreanZombie, videoLink: "https://www.youtube.com/watch?v=eYZJ3EoSzj8"});
-export const ExecutionerSpine = new Submission({name: "Executioner", bodyPart: "Spine", subRate: "0%", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=JNB3ZAwRyZg"});
-export const BostonCrab = new Submission({name: "Boston Crab", bodyPart: "Spine", subRate: "0%", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=fC9d_PLVtBY"});
-export const InsideHeelHookKnee = new Submission({name: "Inside Heel-Hook", bodyPart: "Knee(ACL)", subrate: "0.18%", fighter: RyanHall, videoLink: "https://www.youtube.com/watch?v=OFfmbTZ0JIk"});
-export const OutsideHeelHookKnee = new Submission({name: "Outside Heel-Hook", bodyPart: "Knee(MCL)", subRate: "0.38%", fighter: RousimarPalhares, videoLink: "https://www.youtube.com/watch?v=nBvY5wIo2os"});
-export const Kneebar = new Submission({name: "Kneebar", bodyPart: "Knee", subRate: "1%", fighter: ClaudioPuelles, videoLink: "https://www.youtube.com/watch?v=FZxNxcazr3o"});
+export const ExecutionerSpine = new Submission({name: "Executioner", bodyPart: "Spine", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=JNB3ZAwRyZg"});
+export const BostonCrab = new Submission({name: "Boston Crab", bodyPart: "Spine", subRate: "0", fighter: CouldBeYou, videoLink: "https://www.youtube.com/watch?v=fC9d_PLVtBY"});
+export const InsideHeelHookKnee = new Submission({name: "Inside Heel-Hook", bodyPart: "Knee(ACL)", subrate: "0.18", fighter: RyanHall, videoLink: "https://www.youtube.com/watch?v=OFfmbTZ0JIk"});
+export const OutsideHeelHookKnee = new Submission({name: "Outside Heel-Hook", bodyPart: "Knee(MCL)", subRate: "0.38", fighter: RousimarPalhares, videoLink: "https://www.youtube.com/watch?v=nBvY5wIo2os"});
+export const Kneebar = new Submission({name: "Kneebar", bodyPart: "Knee", subRate: "1", fighter: ClaudioPuelles, videoLink: "https://www.youtube.com/watch?v=FZxNxcazr3o"});
 export const CalfSlicer = new Submission({name: "Calf-Slicer", bodyPart: "Knee(Ligaments)", fighter: CharlesOliveira, videoLink: "https://www.youtube.com/watch?v=fdZTxfTKwp8"});
-export const StraightAnkleLock = new Submission({name: "Straight-Ankle Lock", bodyPart: "Ankle/Foot", subRate: "0.23%", fighter: BrendonAllen, videoLink: "https://www.youtube.com/shorts/oVVlpsE0cVU"});
+export const StraightAnkleLock = new Submission({name: "Straight-Ankle Lock", bodyPart: "Ankle/Foot", subRate: "0.23", fighter: BrendonAllen, videoLink: "https://www.youtube.com/shorts/oVVlpsE0cVU"});
 export const OutsideHeelHookAnkle = new Submission({name: "Outside Heel-Hook", bodyPart: "Ankle", subRate: "0.38", fighter: RousimarPalhares, videoLink: "https://www.youtube.com/watch?v=nBvY5wIo2os"});
-export const InsideHeelHookAnkle = new Submission({name: "Inside Heel-Hook", bodyPart: "Ankle", subrate: "0.18%", fighter: RyanHall, videoLink: "https://www.youtube.com/watch?v=OFfmbTZ0JIk"});
-export const ToeHold = new Submission({name: "Toe-Hold", bodyPart: "Ankle/Foot", subRate: "0.01%", fighter: FrankMirToeHold, videoLink: "https://www.youtube.com/watch?v=Z_8t2HaWAxw"});
+export const InsideHeelHookAnkle = new Submission({name: "Inside Heel-Hook", bodyPart: "Ankle", subrate: "0.18", fighter: RyanHall, videoLink: "https://www.youtube.com/watch?v=OFfmbTZ0JIk"});
+export const ToeHold = new Submission({name: "Toe-Hold", bodyPart: "Ankle/Foot", subRate: "0.01", fighter: FrankMirToeHold, videoLink: "https://www.youtube.com/watch?v=Z_8t2HaWAxw"});
 
 //Body Part Seeds
 //-----------------------------

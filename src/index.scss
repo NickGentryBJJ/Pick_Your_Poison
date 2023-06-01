@@ -8,7 +8,7 @@
   font-size: larger;
   color: red;
   font-family: "DarkSouls";
-  top: 540%;
+  top: 104%;
   position: absolute;
 }
  img.background {
@@ -64,7 +64,7 @@ h2.stats {display: inline-flex;
   padding: 3%;
 }
 
-h3, h4{
+h3, h4, h5{
   font-size: large;
   border: 7px;
   border-style: ridge;
@@ -83,7 +83,7 @@ h3, h4{
 //   top: 0%;
 // }
 
-li:hover, img.head:hover, img.shoulder:hover, img.torso#abs:hover, img.arm:hover, img.hand:hover, img.leg:hover, img.foot:hover {
+a:hover, li:hover, img.head:hover, img.shoulder:hover, img.torso#abs:hover, img.arm:hover, img.hand:hover, img.leg:hover, img.foot:hover {
   background-color: aqua;
   cursor: pointer;
   color: rgb(3, 210, 3);
@@ -92,14 +92,14 @@ li:hover, img.head:hover, img.shoulder:hover, img.torso#abs:hover, img.arm:hover
 
 img.fighter {
   display: inline-flex;
-    position: absolute;
-    left: -33%;
-    top: 134.5%;
-    height: 370%;
-    width: 167%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: absolute;
+  left: -10%;
+  top: 122.5%;
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 img.head {
   display: inline-flex;
@@ -349,7 +349,7 @@ div.fighter {
   display: inline-flex;
   position: absolute;
   right: 15%;
-  top: 38.5%;
+  top: 30.5%;
   padding: 1px;
   width: 205px;
   justify-content: center;

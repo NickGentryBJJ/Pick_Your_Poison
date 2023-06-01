@@ -46,15 +46,18 @@ document.addEventListener("DOMContentLoaded", () => {
         const subWins = document.createElement("h4");
         const img = document.createElement("img");
         const link = document.createElement("a");
+        const subRate = document.createElement("h5");
+        subRate.textContent = "The " + submission.name + " makes up " + submission.subRate + "% of subs in UFC."
         link.href = submission.videoLink;
         link.textContent = "Super Awesome Video";
         subWins.textContent = fighter.subWins;
         subWins.className = "fighter"
         name.className = "fighter"
-        name.textContent = fighter.name;
+        name.textContent = fighter.name + " has the most wins with this submission";
         img.src = fighter.img;
         console.log(fighter.img);
             img.className = "fighter";
+            stats.append(subRate);
             stats.append(img);
             stats.append(name);
             stats.append(subWins);
