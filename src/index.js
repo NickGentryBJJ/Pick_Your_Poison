@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const subRate = document.createElement("h5");
         subRate.textContent = "The " + submission.name + " makes up " + submission.subRate + "% of subs in UFC."
         link.href = submission.videoLink;
+        link.target = "__blank"
         link.textContent = submission.name + " Video";
         subWins.textContent = fighter.subWins;
         subWins.className = "fighter"
