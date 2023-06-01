@@ -396,3 +396,31 @@ div.fighter {
   font-family: "DarkSouls";
   color: rgb(78, 24, 126);
 }
+a.github:hover, img.github:hover {
+  background-color: "";
+
+}
+img.github {
+  width: 100px;
+  left: 20%;
+    bottom: -800%;
+    position: absolute;
+}
+a.github {
+  height: 20px;
+  right: 21.4%;
+  bottom: -500%;
+  position: absolute;
+}
+img.linkedin {
+  width: 100px;
+  left: 20%;
+    bottom: -800%;
+    position: absolute;
+}
+a.linkedin {
+  height: 20px;
+  right: 30%;
+  bottom: -500%;
+  position: absolute;
+}
