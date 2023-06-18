@@ -77,6 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
             li.id = sub.name
             li.textContent = sub.name;
             li.style.fontFamily = "DarkSouls";
+            li.style.fontSize = "20px"
+            subList.style.width = "fit-content"
+            
+
             li.addEventListener("click", (e) => {
 
                 subList.childNodes.forEach(child => {
