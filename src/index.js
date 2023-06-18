@@ -130,9 +130,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     sub.style.backgroundColor = "";
                     sub.style.color = "";
                     sub.style.fontStyle = "";
-                    const dir = document.querySelector(".pickSub");
-                    dir.innerHTML = "";
-                    dir.textContent = "Pick A Sub!";
             return true 
         } else {return false}
     }
