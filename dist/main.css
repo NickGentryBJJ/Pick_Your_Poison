@@ -348,6 +348,34 @@ ul.subList {
   font-family: "DarkSouls";
 }
 
+div.picksub {
+  position: absolute;
+  width: 250px;
+}
+
+h6 {
+  display: inline-flex;
+  position: absolute;
+  right: 165px;
+  top: 32.5%;
+  width: 265px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "DarkSouls";
+  border: 6px solid black;
+  color: red;
+  font-size: 50px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.267);
+  border-style: inset;
+}
+
 ul {
   border: 6px solid black;
   color: red;

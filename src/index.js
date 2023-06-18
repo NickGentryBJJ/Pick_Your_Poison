@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     function displayFighter(fighter, submission) {
+        const div = document.querySelector(".pickSub");
+        div.innerHTML = "";
         const stats = document.querySelector(".fighter");
         stats.innerHTML = "";
         const name = document.createElement("h3");
@@ -70,6 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function subList(limbClass) {
         const subList = document.querySelector(".subList");
+        const div = document.querySelector(".pickSub");
+        const dir = document.createElement("h6");
+        dir.className = "pickSub";
+        dir.textContent = "Pick A Sub!";
+        div.append(dir)
         
         limbClass.submissions.forEach(sub => {
             const li = document.createElement("li");
@@ -78,8 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
             li.textContent = sub.name;
             li.style.fontFamily = "DarkSouls";
             li.style.fontSize = "20px"
-            subList.style.width = "fit-content"
-            
+                                
 
             li.addEventListener("click", (e) => {
 
@@ -101,105 +107,172 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     
     function resetSubList() {
-        document.querySelector(".subList").innerHTML = "";
+        const subs = document.querySelector(".subList")
+        subs.innerHTML = "";
         const stats = document.querySelector(".fighter");
         stats.innerHTML = "";
     };
-    
+
+    function resetLimb(limb) {
+        if (limb.style.backgroundColor === "red") {
+            limb.style.backgroundColor = "";
+            limb.style.zIndex = "";
+            const subs = document.querySelector(".subList")
+            subs.innerHTML = "";
+            subs.textContent = "Pick A Limb!"
+            const stats = document.querySelector(".fighter");
+            stats.innerHTML = "";
+            return true 
+        } else { return false }
+    }
+
+    function resetPick()  {
+        const dir = document.querySelector(".pickSub")
+        dir.innerHTML = ""
+    }    
+
             
     head.addEventListener("click",  (e) => {
-        selectLimb(head);
-        resetSubList();
-        subList(Seeds.chokes);
-        console.log("head");
+        if (resetLimb(head) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(head);
+            resetSubList();
+            subList(Seeds.chokes);
+        }
     } )
 
     
     torso.addEventListener("click",  (e) => {
-        selectLimb(torso);
-        resetSubList();
-        subList(Seeds.spineSubs);
-        console.log("spine");
+        if (resetLimb(torso) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(torso);
+            resetSubList();
+            subList(Seeds.spineSubs);
+        }
     } )
     
     
     leftShoulder.addEventListener("click",  (e) => {
-        selectLimb(leftShoulder);
-        resetSubList();
-        subList(Seeds.shoulderSubs);
-        console.log("left shoulder");
+        if (resetLimb(leftShoulder) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(leftShoulder);
+            resetSubList();
+            subList(Seeds.shoulderSubs);
+        }
     } )
     
     
     rightShoulder.addEventListener("click",  (e) => {
-        selectLimb(rightShoulder);
-        resetSubList();
-        subList(Seeds.shoulderSubs);
-        console.log("right shoulder");
+        if (resetLimb(rightShoulder) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(rightShoulder);
+            resetSubList();
+            subList(Seeds.shoulderSubs);
+        }
     } )
     
     
     rightArm.addEventListener("click",  (e) => {
-        selectLimb(rightArm);
-        resetSubList();
-        subList(Seeds.armSubs);
-        console.log("right arm");
+        if (resetLimb(rightArm) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(rightArm);
+            resetSubList();
+            subList(Seeds.armSubs);
+        }
     } )
     
     
     leftArm.addEventListener("click",  (e) => {
-        selectLimb(leftArm);
-        resetSubList();
-        subList(Seeds.armSubs);
-        console.log("left arm");
+        if (resetLimb(leftArm) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(leftArm);
+            resetSubList();
+            subList(Seeds.armSubs);
+        }
     } )
     
     
     leftHand.addEventListener("click",  (e) => {
-        selectLimb(leftHand);
-        resetSubList();
-        subList(Seeds.wristSubs);
-        console.log("left hand");
+        if (resetLimb(leftHand) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(leftHand);
+            resetSubList();
+            subList(Seeds.wristSubs);
+        }
     } )
     
     
     rightHand.addEventListener("click",  (e) => {
-        selectLimb(rightHand);
-        resetSubList();
-        subList(Seeds.wristSubs);
-        console.log("right hand");
+        if (resetLimb(rightHand) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(rightHand);
+            resetSubList();
+            subList(Seeds.wristSubs);
+        }
     } )
     
     
     rightLeg.addEventListener("click",  (e) => {
-        selectLimb(rightLeg);
-        resetSubList();
-        subList(Seeds.kneeSubs);
-        console.log("right leg");
+        if (resetLimb(rightLeg) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(rightLeg);
+            resetSubList();
+            subList(Seeds.kneeSubs);
+        }
     } )
     
     
     leftLeg.addEventListener("click",  (e) => {
-        selectLimb(leftLeg);
-        resetSubList();
-        subList(Seeds.kneeSubs);
-        console.log("left leg");
+        if (resetLimb(leftLeg) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(leftLeg);
+            resetSubList();
+            subList(Seeds.kneeSubs);
+        }
     } )
     
     
     leftFoot.addEventListener("click",  (e) => {
-        selectLimb(leftFoot);
-        resetSubList();
-        subList(Seeds.ankleSubs);
-        console.log("left foot");
+        if (resetLimb(leftFoot) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(leftFoot);
+            resetSubList();
+            subList(Seeds.ankleSubs);
+        }
     } )
 
     
     rightFoot.addEventListener("click",  (e) => {
-        selectLimb(rightFoot);
-        resetSubList();
-        subList(Seeds.ankleSubs);
-        console.log("right foot");
+        if (resetLimb(rightFoot) === true) {
+            resetPick();
+        } else {
+            resetPick();
+            selectLimb(rightFoot);
+            resetSubList();
+            subList(Seeds.ankleSubs);
+        }
     } )
 
 })
