@@ -88,19 +88,31 @@ document.addEventListener("DOMContentLoaded", () => {
                                 
 
             li.addEventListener("click", (e) => {
+                if (resetSubs(li) === true) {
+                    const stats = document.querySelector(".fighter");
+                    stats.innerHTML = "";
+                    const div = document.querySelector(".pickSub");
+                    const dir = document.createElement("h6");
+                    dir.className = "pickSub";
+                    dir.textContent = "Pick A Sub!";
+                    div.append(dir)
 
-                subList.childNodes.forEach(child => {
-                    child.style.backgroundColor = "";
-                    child.style.color = ""
-                    child.style.fontStyle = ""
+                   
+                } else {
+                    subList.childNodes.forEach(child => {
+                        child.style.backgroundColor = "";
+                        child.style.color = "";
+                    child.style.fontStyle = "";
                 });
                 li.style.backgroundColor = "red";
-                li.style.color = "black"
-                li.style.fontStyle = "italic"
+                li.style.color = "black";
+                li.style.fontStyle = "italic";
                 
                 
                 displayFighter(sub.fighter, sub);
-            });
+            }
+            }
+            );
             subList.append(li);
             
         });
@@ -112,6 +124,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const stats = document.querySelector(".fighter");
         stats.innerHTML = "";
     };
+
+    function resetSubs(sub) {
+        if (sub.style.fontStyle === "italic") {
+                    sub.style.backgroundColor = "";
+                    sub.style.color = "";
+                    sub.style.fontStyle = "";
+                    const dir = document.querySelector(".pickSub");
+                    dir.innerHTML = "";
+                    dir.textContent = "Pick A Sub!";
+            return true 
+        } else {return false}
+    }
+    
 
     function resetLimb(limb) {
         if (limb.style.backgroundColor === "red") {
