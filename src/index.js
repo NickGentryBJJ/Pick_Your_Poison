@@ -40,31 +40,50 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     function displayFighter(fighter, submission) {
+
+
+        // Create an iframe element
+        const iframe = document.createElement("iframe");
+        iframe.className = "vid"
+        iframe.width = "560";
+        iframe.height = "315";
+        iframe.src = submission.videoLink;
+        iframe.title = "YouTube video player";
+        iframe.frameBorder = "0";
+        iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.allowFullscreen = true;
+
+        // Append the iframe element to a container
+        
+
+
+
         const div = document.querySelector(".pickSub");
         div.innerHTML = "";
         const stats = document.querySelector(".fighter");
         stats.innerHTML = "";
         const name = document.createElement("h3");
         const subWins = document.createElement("h4");
-        const img = document.createElement("img");
-        const link = document.createElement("a");
+        // const img = document.createElement("img");
+//         const link = document.createElement("a");
         const subRate = document.createElement("h5");
         subRate.textContent = "The " + submission.name + " makes up " + submission.subRate + "% of subs in UFC."
-        link.href = submission.videoLink;
-        link.target = "__blank"
-        link.textContent = submission.name + " Video";
+        // link.href = submission.videoLink;
+        // link.target = "__blank"
+        // link.textContent = submission.name + " Video";
         subWins.textContent = fighter.subWins;
         subWins.className = "fighter"
         name.className = "fighter"
         name.textContent = fighter.name + " has the most wins with this submission";
-        img.src = fighter.img;
-        console.log(fighter.img);
-            img.className = "fighter";
+        // img.src = fighter.img;
+            // img.className = "fighter";
             stats.append(subRate);
-            stats.append(img);
+            // stats.append(img);
             stats.append(name);
             stats.append(subWins);
-            stats.append(link);
+            // stats.append(link);
+            stats.append(iframe);
     
     }
     

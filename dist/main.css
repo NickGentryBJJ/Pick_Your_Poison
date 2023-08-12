@@ -452,6 +452,11 @@ div.fighter {
   color: rgb(78, 24, 126);
 }
 
+.vid {
+  width: 157%;
+  height: 44vh;
+}
+
 a.github:hover, img.github:hover {
   background-color: "";
 }
