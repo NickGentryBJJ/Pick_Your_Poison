@@ -8,6 +8,7 @@
 }
 div.background {
   height: 100vh;
+  width: 100vw;
 }
 
 a {
@@ -19,7 +20,8 @@ a {
 }
 
 img.background {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   position: fixed;
 }
 
@@ -144,10 +146,11 @@ img.head {
   display: inline-flex;
   position: absolute;
   left: 10.6%;
-  top: 25.5%;
+  top: 26.5vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -158,10 +161,11 @@ img.shoulder#leftShoulder {
   display: inline-flex;
   position: absolute;
   left: 7.29%;
-  top: 42%;
+  top: 40vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -172,10 +176,11 @@ img.shoulder#rightShoulder {
   display: inline-flex;
   position: absolute;
   left: 14.5%;
-  top: 42%;
+  top: 40.2vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -186,10 +191,11 @@ img.arm#leftArm {
   display: inline-flex;
   position: absolute;
   left: 3.59%;
-  top: 58.7%;
+  top: 52.9vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -200,10 +206,11 @@ img.arm#rightArm {
   display: inline-flex;
   position: absolute;
   left: 18.4%;
-  top: 57.6%;
+  top: 52.9vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -214,10 +221,11 @@ img.hand#leftHand {
   display: inline-flex;
   position: absolute;
   left: 0.19%;
-  top: 72.4%;
+  top: 64.2vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -228,10 +236,11 @@ img.hand#rightHand {
   display: inline-flex;
   position: absolute;
   left: 21.8%;
-  top: 72.1%;
+  top: 64.87vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -242,10 +251,11 @@ img.torso#abs {
   display: inline-flex;
   position: absolute;
   left: 9.5%;
-  top: 55%;
+  top: 51vh;
   border-radius: 4px;
   padding: 1px;
-  width: 12%;
+  width: 12vw;
+  height: 20vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -256,10 +266,11 @@ img.torso#upperThighRight {
   display: inline-flex;
   position: absolute;
   left: 13.5%;
-  top: 70.6%;
+  top: 62.5vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -270,10 +281,11 @@ img.torso#upperThighLeft {
   display: inline-flex;
   position: absolute;
   left: 8.5%;
-  top: 70.6%;
+  top: 62.5vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -284,10 +296,11 @@ img.leg#leftLeg {
   display: inline-flex;
   position: absolute;
   left: 8.87%;
-  top: 87.3%;
+  top: 76vh;
   border-radius: 4px;
   padding: 1px;
-  width: 8%;
+  width: 8vw;
+  height: 31vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -298,10 +311,11 @@ img.leg#rightLeg {
   display: inline-flex;
   position: absolute;
   left: 14.1%;
-  top: 85.7%;
+  top: 75vh;
   border-radius: 4px;
   padding: 1px;
-  width: 8.7%;
+  width: 8.7vw;
+  height: 31vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -312,10 +326,11 @@ img.foot#leftFoot {
   display: inline-flex;
   position: absolute;
   left: 7.76%;
-  top: 117.5%;
+  top: 101vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -326,10 +341,11 @@ img.foot#rightFoot {
   display: inline-flex;
   position: absolute;
   left: 14.5%;
-  top: 120.5%;
+  top: 101vh;
   border-radius: 4px;
   padding: 1px;
-  width: 10%;
+  width: 10vw;
+  height: 18vh;
   margin: 0px;
   justify-content: center;
   align-items: center;

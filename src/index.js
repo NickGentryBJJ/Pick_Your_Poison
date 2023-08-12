@@ -96,8 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     dir.className = "pickSub";
                     dir.textContent = "Pick A Sub!";
                     div.append(dir)
-
-                   
                 } else {
                     subList.childNodes.forEach(child => {
                         child.style.backgroundColor = "";
